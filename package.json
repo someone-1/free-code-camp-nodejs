@@ -1,18 +1,19 @@
 {
-  "name": "fcc-timestamp-microservice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "engine": {
-    "node": "4.4.7"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.1"
+    "name": "fcc-file-metadata-microservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server"
+    },
+    "engine": {
+      "node": "4.4.7"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.14.1",
+      "multer": "^1.3.0"
+    }
   }
-}
