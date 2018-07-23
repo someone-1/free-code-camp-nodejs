@@ -8,8 +8,10 @@ router.get('/' , function (req , res){
 	res.sendFile(path.join(__dirname +'/index.html'));
 })
 
-router.get('/:time' , function(req , res){
+router.get('/api/timestamp/:time' , function(req , res){
 	var time = req.params.time;
+	console.log(date.returnDate(time), time)
 	res.json(date.returnDate(time));
+
 });
 module.exports = router;
